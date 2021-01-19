@@ -6,6 +6,8 @@ const myObj = {
     rank: 1
 }
 let keys = Object.keys(myObj);
-console.log(keys);
+// console.log(keys);
 let values = Object.values(myObj);
-console.log(values);
+// console.log(values);
+let entries = Object.entries(myObj);
+console.log(entries);
